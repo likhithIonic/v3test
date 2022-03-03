@@ -2,11 +2,11 @@ name: V3 + Cordova + Angular
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
-#   push:
-#     branches: [ master ]
+  push:
+    branches: [ master ]
   
-#   schedule:
-#     - cron:  '47 22 1 * *'
+  schedule:
+    - cron:  '47 22 1 * *'
 
     # * is a special character in YAML so you have to quote this string
 
